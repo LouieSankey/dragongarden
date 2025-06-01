@@ -10,6 +10,10 @@ interface Params {
   slug: string
 }
 
+interface PageProps {
+  params: Promise<Params>
+}
+
 export async function generateStaticParams() {
   const posts = getAllPosts()
   return posts.map((post) => ({
@@ -17,8 +21,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const post = getPostBySlug(params.slug)
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params
+  const post = getPostBySlug(slug)
 
   if (!post) {
     return {
@@ -55,8 +60,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   }
 }
 
-export default function BlogPost({ params }: { params: Params }) {
-  const post = getPostBySlug(params.slug)
+export default async function BlogPost({ params }: PageProps) {
+  const { slug } = await params
+  const post = getPostBySlug(slug)
 
   if (!post) {
     notFound()

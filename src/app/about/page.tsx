@@ -4,12 +4,12 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'About Dragon Garden Saipan - World\'s Rarest Fruit Collection',
-  description: 'Learn about Dragon Garden Saipan, our mission to cultivate the world\'s rarest fruits, and our commitment to conservation and sustainable agriculture in the tropical paradise of Saipan.',
+  title: 'About Dragon Garden Saipan - World&apos;s Rarest Fruit Collection',
+  description: 'Learn about Dragon Garden Saipan, our mission to cultivate the world&apos;s rarest fruits, and our commitment to conservation and sustainable agriculture in the tropical paradise of Saipan.',
   keywords: ['Dragon Garden Saipan about', 'rare fruit cultivation', 'exotic fruit garden', 'Saipan agriculture', 'fruit conservation'],
   openGraph: {
-    title: 'About Dragon Garden Saipan - World\'s Rarest Fruit Collection',
-    description: 'Learn about Dragon Garden Saipan, our mission to cultivate the world\'s rarest fruits, and our commitment to conservation and sustainable agriculture.',
+    title: 'About Dragon Garden Saipan - World&apos;s Rarest Fruit Collection',
+    description: 'Learn about Dragon Garden Saipan, our mission to cultivate the world&apos;s rarest fruits, and our commitment to conservation and sustainable agriculture.',
     type: 'website',
   },
 }
@@ -41,20 +41,20 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="prose prose-lg text-gray-600">
                   <p>
-                    Dragon Garden Saipan began as a dream to create something extraordinary - a place where the world's rarest and most exotic fruits could thrive in perfect harmony with nature. Founded by passionate fruit enthusiasts and agricultural experts, our garden has become a sanctuary for some of the planet's most elusive botanical treasures.
+                    Dragon Garden Saipan began as a dream to create something extraordinary - a place where the world&apos;s rarest and most exotic fruits could thrive in perfect harmony with nature. Founded by passionate fruit enthusiasts and agricultural experts, our garden has become a sanctuary for some of the planet&apos;s most elusive botanical treasures.
                   </p>
                   <p>
-                    What started as a small collection of unusual fruit trees has grown into one of the world's most comprehensive rare fruit gardens, featuring varieties that many people never knew existed. From legendary dragon fruits to taste-transforming miracle berries, our collection represents decades of careful cultivation and preservation efforts.
+                    What started as a small collection of unusual fruit trees has grown into one of the world&apos;s most comprehensive rare fruit gardens, featuring varieties that many people never knew existed. From legendary dragon fruits to taste-transforming miracle berries, our collection represents decades of careful cultivation and preservation efforts.
                   </p>
                   <p>
-                    Located in the pristine tropical environment of Saipan, our garden benefits from the island's perfect climate conditions - consistent temperatures, abundant rainfall, and rich volcanic soil that provides an ideal growing environment for exotic fruits from around the globe.
+                    Located in the pristine tropical environment of Saipan, our garden benefits from the island&apos;s perfect climate conditions - consistent temperatures, abundant rainfall, and rich volcanic soil that provides an ideal growing environment for exotic fruits from around the globe.
                   </p>
                 </div>
               </div>
               <div className="relative">
                 <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    src="/images/passion-fruit.png"
                     alt="Dragon Garden Saipan tropical fruit garden"
                     width={800}
                     height={600}
@@ -109,7 +109,7 @@ export default function AboutPage() {
                   Sustainability
                 </h3>
                 <p className="text-gray-600">
-                  Implementing eco-friendly cultivation methods that work in harmony with Saipan's natural ecosystem and local environment.
+                  Implementing eco-friendly cultivation methods that work in harmony with Saipan&apos;s natural ecosystem and local environment.
                 </p>
               </div>
             </div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
               <div className="relative mb-12 lg:mb-0 order-2 lg:order-1">
                 <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    src="/images/passion-fruit.png"
                     alt="Rare exotic fruits collection"
                     width={800}
                     height={600}
@@ -201,7 +201,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Dedication</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Behind Dragon Garden Saipan is a passionate team of horticulturists, conservationists, and fruit enthusiasts dedicated to preserving and sharing nature's most extraordinary creations.
+                Behind Dragon Garden Saipan is a passionate team of horticulturists, conservationists, and fruit enthusiasts dedicated to preserving and sharing nature&apos;s most extraordinary creations.
               </p>
             </div>
             
@@ -270,7 +270,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
               Visit Dragon Garden Saipan and discover fruits you never knew existed. 
-              Join us in celebrating nature's most incredible creations.
+              Join us in celebrating nature&apos;s most incredible creations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

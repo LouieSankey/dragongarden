@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">🐲 Dragon Garden Saipan</h3>
             <p className="text-green-100 mb-4">
-              Experience the world's rarest and most exotic fruits at Dragon Garden Saipan. 
+              Experience the world&apos;s rarest and most exotic fruits at Dragon Garden Saipan. 
               Our botanical paradise features extraordinary tropical fruits from around the globe, 
               cultivated with passion and expertise in the beautiful island of Saipan.
             </p>

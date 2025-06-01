@@ -7,11 +7,11 @@ import { getAllPosts, getAllTags } from '@/lib/blog'
 
 export const metadata: Metadata = {
   title: 'Blog - Dragon Garden Saipan',
-  description: 'Discover the latest insights, stories, and tips about growing and enjoying the world\'s rarest fruits from Dragon Garden Saipan.',
+  description: 'Discover the latest insights, stories, and tips about growing and enjoying the world&apos;s rarest fruits from Dragon Garden Saipan.',
   keywords: ['Dragon Garden Saipan blog', 'exotic fruits', 'rare fruits', 'tropical gardening', 'fruit cultivation', 'Saipan agriculture'],
   openGraph: {
     title: 'Blog - Dragon Garden Saipan',
-    description: 'Discover the latest insights, stories, and tips about growing and enjoying the world\'s rarest fruits from Dragon Garden Saipan.',
+    description: 'Discover the latest insights, stories, and tips about growing and enjoying the world&apos;s rarest fruits from Dragon Garden Saipan.',
     type: 'website',
   },
 }
@@ -120,7 +120,7 @@ export default function BlogPage() {
                       Coming Soon!
                     </h2>
                     <p className="text-gray-600 mb-6">
-                      We're preparing exciting content about our rare fruits, cultivation techniques, 
+                      We&apos;re preparing exciting content about our rare fruits, cultivation techniques, 
                       and the stories behind Dragon Garden Saipan. Check back soon for our first posts!
                     </p>
                     <Link
@@ -141,7 +141,7 @@ export default function BlogPage() {
                   About Dragon Garden
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  We're passionate about cultivating the world's rarest fruits in the tropical paradise of Saipan. 
+                  We&apos;re passionate about cultivating the world&apos;s rarest fruits in the tropical paradise of Saipan. 
                   Our blog shares insights from our journey of growing extraordinary fruits.
                 </p>
                 <Link

@@ -2,7 +2,7 @@
 title: "Miracle Berries: The Fruit That Transforms Your Taste Buds"
 date: "2024-01-10"
 excerpt: "Discover the incredible Miracle Berry (Synsepalum dulcificum) at Dragon Garden Saipan - a tiny fruit with the extraordinary ability to make sour foods taste sweet, creating a magical culinary experience."
-image: "https://images.unsplash.com/photo-1527325678964-54921661f888?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+image: "/images/passion-fruit.png"
 author: "Dragon Garden Saipan"
 tags: ["Miracle Berry", "Rare Fruits", "Taste Modifiers", "Unique Experience"]
 seoTitle: "Miracle Berries: Taste-Changing Fruit Experience | Dragon Garden Saipan"

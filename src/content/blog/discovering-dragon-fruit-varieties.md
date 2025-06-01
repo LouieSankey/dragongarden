@@ -2,7 +2,7 @@
 title: "Discovering the Mystical World of Dragon Fruit Varieties"
 date: "2024-01-15"
 excerpt: "Explore the fascinating diversity of dragon fruits at Dragon Garden Saipan, from the classic white-fleshed varieties to the rare purple and yellow treasures that captivate fruit enthusiasts worldwide."
-image: "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+image: "/images/suriname.png"
 author: "Dragon Garden Saipan"
 tags: ["Dragon Fruit", "Rare Fruits", "Cultivation", "Varieties"]
 seoTitle: "Dragon Fruit Varieties: Complete Guide to Exotic Types | Dragon Garden Saipan"

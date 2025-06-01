@@ -22,9 +22,9 @@ export default function Home() {
                   Saipan
                 </h1>
                 <p className="mt-6 text-xl text-gray-600 leading-relaxed">
-                  Discover the world's rarest and most exotic fruits in our botanical paradise. 
+                  Discover the world&apos;s rarest and most exotic fruits in our botanical paradise. 
                   From legendary dragon fruits to mysterious tropical treasures, experience 
-                  flavors you've never imagined in the heart of Saipan.
+                  flavors you&apos;ve never imagined in the heart of Saipan.
                 </p>
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
                   <Link
@@ -34,21 +34,21 @@ export default function Home() {
                     Explore Our Fruits
                   </Link>
                   <Link
-                    href="/visit"
+                    href="/services"
                     className="inline-flex items-center px-6 py-3 border border-green-700 text-base font-medium rounded-md text-green-700 bg-white hover:bg-green-50 transition-colors"
                   >
-                    Plan Your Visit
+                    Our Services
                   </Link>
                 </div>
               </div>
               <div className="relative">
-                <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden shadow-xl">
+                <div className="w-[500px] h-80 rounded-lg overflow-hidden shadow-xl mx-auto">
                   <Image
-                    src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    src="/images/pineapple.png"
                     alt="Exotic tropical fruits in Dragon Garden Saipan"
-                    width={800}
-                    height={600}
-                    className="object-cover"
+                    width={500}
+                    height={320}
+                    className="object-cover w-full h-full"
                     priority
                   />
                 </div>
@@ -65,8 +65,8 @@ export default function Home() {
                 Why Dragon Garden Saipan?
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                We specialize in cultivating the world's most extraordinary fruits, 
-                bringing you unique tastes and experiences you won't find anywhere else.
+                We specialize in cultivating the world&apos;s most extraordinary fruits, 
+                bringing you unique tastes and experiences you won&apos;t find anywhere else.
               </p>
             </div>
             
@@ -79,7 +79,7 @@ export default function Home() {
                   Rarest Varieties
                 </h3>
                 <p className="text-gray-600">
-                  Home to fruits so rare they're considered mythical. Experience dragon fruits, 
+                  Home to fruits so rare they&apos;re considered mythical. Experience dragon fruits, 
                   miracle berries, and other legendary tropical treasures.
                 </p>
               </div>
@@ -167,7 +167,7 @@ export default function Home() {
             ) : (
               <div className="text-center py-12">
                 <p className="text-gray-600 text-lg">
-                  Welcome to our blog! We'll be sharing exciting content about our rare fruits soon.
+                  Welcome to our blog! We&apos;ll be sharing exciting content about our rare fruits soon.
                 </p>
                 <Link
                   href="/blog"
